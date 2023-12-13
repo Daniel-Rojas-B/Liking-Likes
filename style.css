@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+main {
+
+    margin: auto;
+    width: 750px;
+
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 80px;
+    width: 100%;
+}
+
+.subheader {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 750px;
+    height: 80px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    padding: 10px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.feeds {
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    align-items: start;
+
+}
+
+.feedone {
+    border: 2px black solid;
+    width: 400px;
+    height: 140px;
+    padding: 20px;
+    margin: 0px 0px 10px 10px;
+}
+
+.feedtwo {
+    border: 2px black solid;
+    width: 400px;
+    height: 140px;
+    padding: 20px;
+    margin: 0px 0px 10px 10px;
+}
+
+.feedthree {
+    border: 2px black solid;
+    width: 400px;
+    height: 140px;
+    padding: 20px;
+    margin: 0px 0px 10px 10px;
+}
+
+a {
+    color: blue;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #FBD861;
+    border: 3px solid black;
+    width: 100px;
+    height: 40px;
+    color: black;
+    box-shadow: 3px 3px black;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
